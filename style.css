@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-section{
+    height: 100vh;
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+}
+
+.nav{
+    padding: 30px 0 0 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arodora Pro'
+}
+
+.logo{
+    width: 180px;
+    height: 50px;
+    margin-right: 220px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    margin-right: 145px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E4E4E4;
+
+}
+.nav-item:nth-child(4) {
+    margin-right: 0;
+}
+.section-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 450px;
+    height: 340px;
+    font-family: 'NEXT ART';
+    color: #E4E4E4;
+}
+.hello-img{
+    width: 530px;
+    height: 750px;
+}
+.gleb{
+    width: 633px;
+    height: 678px;
+}
+
+.hello-title{
+    width: 205px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #E4E4E4;
+}
+
+.hello-title-mr{
+    width: 447px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 70px;
+    color: #E4E4E4;
+    margin: 20px 0;
+}
+
+.hello-text{
+    width: 430px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.hello-button{
+    width: 200px;
+    height: 47px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
