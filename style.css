@@ -129,3 +129,62 @@ body{
     color: #000000;
     margin-top: 40px;
 }
+
+.section-skils{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    height: 1847px;
+}
+
+.skil-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 265px 40px 30px  0;;
+}
+.skil-items{
+    box-sizing: border-box;
+    width: 270px;
+    height: 270px;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    margin: 0 40px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-img{
+    width: 67px;
+    height: 67px;
+    margin-bottom: 40px;
+}
+
+.skil-title{
+    width: 170px;
+    height: 29px;
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E4E4E4;
+    text-align: center;
+}
+.skill-ui-img{
+    width: 148px;
+    height: 54px;
+    margin-bottom: 60px;
+}
+
+.skill-icon-img{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 50px;
+}
+.skill-back-img{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 66px; 
+}
